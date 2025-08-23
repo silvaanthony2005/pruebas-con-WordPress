@@ -1,0 +1,75 @@
+footer {
+    background: linear-gradient(135deg, #14532d 0%, #166534 100%);
+    color: #e6ffe6;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    gap: 2rem;
+}
+
+.footer-section h4 {
+    color: #b9fbc0;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.footer-section p {
+    color: #e6ffe6;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.footer-links,
+.footer-social {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li,
+.footer-social li {
+    margin-bottom: 0.7rem;
+}
+
+.footer-links a,
+.footer-social a {
+    color: #e6ffe6;
+    text-decoration: none;
+    font-size: 1.05rem;
+    transition: color 0.2s, text-shadow 0.2s;
+    padding: 2px 0;
+    border-radius: 3px;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+    color: #b9fbc0;
+    text-shadow: 0 0 5px #14532d;
+    background: #16653433;
+}
+
+.footer-links,
+.footer-social {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.footer-bottom {
+    background: #166534;
+    text-align: center;
+    padding: 1rem 0;
+    color: #b9fbc0;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border-top: 1px solid #b9fbc055;
+    margin-top: 1rem;
+}
